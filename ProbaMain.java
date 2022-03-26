@@ -9,5 +9,6 @@ public class ProbaMain {
 
 		Test t = new Test();
 		System.out.print(t.metodus(5));
+		System.out.print("shdg");
 	}
 }
