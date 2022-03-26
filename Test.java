@@ -1,6 +1,6 @@
 public class Test {
-    
+
 	public int metodus(int x) {
-		return x*x;
+		return x*x*x;
 	}
 }
