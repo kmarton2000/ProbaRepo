@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class ProbaMain {
 
@@ -10,5 +13,13 @@ public class ProbaMain {
 		Test t = new Test();
 		System.out.print(t.metodus(5));
 		System.out.print("shdg");
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(isr);
+		try {
+			System.out.print(marci.metodus(br.readLine()));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 }
